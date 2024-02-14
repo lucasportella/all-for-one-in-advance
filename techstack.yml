@@ -1,0 +1,155 @@
+repo_name: lucasportella/all-for-one-in-advance
+report_id: f4f2c34da27ab0103ed0e58fbe18d5f4
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-14T15:14:00+00:00'
+requested_by: lucasportella
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/desafio1.sql
+  detection_source: desafio1.sql
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 2.18.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: acorn
+  description: ECMAScript parser
+  package_url: https://www.npmjs.com/acorn
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+- name: mysql2
+  description: Fast mysql driver
+  package_url: https://www.npmjs.com/mysql2
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16671/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/lucasportella/all-for-one-in-advance/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-07-20 13:03:50.000000000 Z
